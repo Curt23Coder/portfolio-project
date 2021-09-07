@@ -142,8 +142,8 @@ overflow: hidden;
     }
     @media (min-width: 410px) and (max-width: 490px){
         .project-image {
-            width: 395px !important;
-            height: 395px !important;
+            width: 345px !important;
+            height: 345px !important;
         }
     }   
     @media (min-width: 530px) and (max-width: 765px){
