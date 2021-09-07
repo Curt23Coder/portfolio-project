@@ -1,0 +1,693 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Nunito:wght@200&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.842);
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+}
+.background-img{
+    background-image: url("../Images/d77b0c8130f4d9d515cbfc248c39e904.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 350px;
+}
+.container-fluid-content {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.658);
+    height: 340px;
+    border-radius: 2%;
+    margin-top: -100px;
+    margin-left: 0;
+}
+.text-block h2 {
+    border-bottom: solid 1px #fff;
+}
+.text-block{
+    width: 60%;
+    float: right;
+    margin-top: 60px;
+    margin-right: 120px;
+
+}
+.container-img {
+    border-radius: 40%;
+    margin-top: 60px;
+    margin-left: 120px;
+    border: 1px solid #fff;
+}
+.btn {
+    background-color: rgba(44, 43, 43, 0.301);
+    color: #fff;
+    z-index: 100;
+}
+.container {
+width: 90%;
+overflow: hidden;
+}
+ .img-1, .img-2, .img-3{
+    float: left;
+    display: inline;
+    margin-top: 50px;
+
+}
+.img-1, .img-2, .img-3 {
+    width: 33%;
+}
+
+.project-image {
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.container-title {
+    margin-top: 110px;
+    text-align: center;
+    border-bottom: solid 1px #fff;
+}
+.portfolio-img {
+    margin-top: 60px;
+    margin-left: 100px;
+    border-radius: 30%;
+    border: solid 1px #fff;
+
+}
+.footer {
+    display: inline-flex;
+    background-color: rgba(0, 0, 0, 0.377);
+    height: 170px;
+    margin-top: 130px;
+
+}                                                                  
+.email {
+    text-decoration: none;
+    color: #fff;
+}
+.email:hover{
+    color: #fff;
+}
+.icon1, .icon2{
+    border-radius: 5px 20px 5px;
+    height: 40px;
+    width: 40px;
+    margin-top: 20px;
+}
+.icon1, .icon2{
+    height: 40px;
+    width: 40px;
+    background-color: #fff;
+    padding: 2px;
+}
+.icon3{
+    height: 50px;
+    width: 50px;
+    background-color: #fff;
+    padding: 1px;
+    border-radius: 30%;
+}
+.icon3{
+    margin-top: 15px;
+    height: 50px;
+    width: 50px;
+}
+.icon1, .icon2, .icon3 {
+    margin: 15px 210px;
+}
+.github-hover1, .github-hover2, .github-hover3 {
+    position: absolute;
+    top: 740px;
+    margin-left: -160px;
+    opacity: 0;
+}
+
+.fb-icon{
+    width: 200px;
+}
+.linkedin-icon,.github-icon {
+    width: 150px;
+}
+@media (min-width: 310px) and (max-width: 490px){
+.project-image{
+    width: 270px !important;
+    height: 300px !important;
+}
+}
+@media (min-width: 312px) and (max-width: 333px){
+.project-image {
+    width: 280px !important;
+    height: 270px !important;
+}
+    }
+    @media (min-width: 410px) and (max-width: 490px){
+        .project-image {
+            width: 395px !important;
+            height: 395px !important;
+        }
+    }   
+    @media (min-width: 530px) and (max-width: 765px){
+        .project-image {
+            width: 525px !important;
+            height: 525px !important;
+        }
+    }  
+    @media (min-width: 630px) and (max-width: 765px){
+        .project-image {
+            width: 580px !important;
+            height: 580px !important;
+        }
+    } 
+@media (min-width: 410px) and (max-width: 475px){
+    h2 {
+        font-size: 25px !important;
+    }
+    .container-title {
+        font-size: 25px !important;
+    }
+}
+@media (min-width: 320px) and (max-width: 415px){
+    h2 {
+        font-size: 25px !important;
+    }
+    .container-title {
+        font-size: 25px !important;
+    }
+}
+@media (min-width: 240px) and (max-width: 309px){
+    .github-hover1, .github-hover2, .github-hover3 {
+        position: relative;
+        top: 100px !important;
+        margin-left: -210px !important;
+        opacity: 0;
+    }
+    .project-image {
+        width: 210px !important;
+        height: 210px !important;
+    }
+}
+@media (min-width: 312px) and (max-width: 324px){
+    .github-hover1, .github-hover2, .github-hover3 {
+        position: relative;
+        top: 100px !important;
+        margin-left: -230px !important;
+        opacity: 0;
+    }
+}
+@media (min-width: 410px) and (max-width: 490px){
+    .github-hover1, .github-hover2, .github-hover3 {
+        position: relative;
+        display: inline-block;
+        top: 100px !important;
+        margin-left: -300px !important;
+        opacity: 0;
+    }
+}
+@media (min-width: 490px) and (max-width: 767px){
+    .github-hover1, .github-hover2, .github-hover3 {
+        position: relative;
+        display: inline-block;
+        top: 100px !important;
+        margin-left: -360px !important;
+        opacity: 0;
+    }
+}
+@media (min-width: 536px) and (max-width: 765px){
+.github-hover1, .github-hover2, .github-hover3 {
+    position: relative;
+    display: inline-block;
+    top: 100px !important;
+    margin-left: -470px !important;
+    opacity: 0;
+}
+}
+@media (min-width: 325px) and (max-width: 409px){
+    .github-hover1, .github-hover2, .github-hover3 {
+        position: relative;
+        display: inline-block;
+        top: 100px !important;
+        margin-left: -200px !important;
+        opacity: 0;
+    }
+    }
+    @media (min-width: 240px) and (max-width: 310px){
+        .github-hover1, .github-hover2, .github-hover3 {
+            position: relative;
+            display: inline-block;
+            top: 100px !important;
+            margin-left: -200px !important;
+            opacity: 0;
+        }
+        }
+        @media (min-width: 240px) and (max-width: 309px){
+            .github-hover1, .github-hover2, .github-hover3 {
+                position: relative;
+                display: inline-block;
+                top: 100px !important;
+                margin-left: -170px !important;
+                opacity: 0;
+            }
+            }
+            @media (min-width: 766px) and (max-width: 767px){
+                .project-image {
+                    height: 610px !important;
+                    width: 610px !important;
+                }
+                .github-hover1, .github-hover2, .github-hover3 {
+                    position: relative;
+                    display: inline-block;
+                    top: 100px !important;
+                    margin-left: -490px !important;
+                    opacity: 0;
+                }
+            }
+/*Mobile Screens*/
+@media (min-width: 240px) and (max-width: 479px){
+  
+    .container-fluid-content {
+        background-color: rgba(0, 0, 0, 0.658);
+        height: 895px;
+
+
+    }
+    .text-block{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+    }
+    .wrapper {
+        width: 220px;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+ 
+    h2 {
+        width: 96%;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        font-size: 20px;
+    }
+    p {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 15px;
+    }
+.container-title{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 550px;
+}
+
+.portfolio-img{
+    width: 90px;
+    height: 90px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-1, .img-2, .img-3 {
+    width: 100%;
+}
+
+.project-image {
+    height: 245px;
+    width: 245px;
+}
+.fb-icon, .github-icon, .linkedin-icon {
+    margin: 0px auto;
+}
+.icon1, .icon2, .icon3 {
+    margin: 15px auto;
+}
+.container-img {
+    width: 150px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.linkedin-icon, .fb-icon, .github-icon {
+    width: 50px;
+}
+.github-hover1, .github-hover2, .github-hover3 {
+    position: relative;
+    display: inline-block;
+    top: 570px;
+    margin-left: -250px;
+    opacity: 0;
+}
+}
+/*Mobile Landscape*/
+@media (min-width: 480px) and (max-width: 767px){
+    .container-fluid-content {
+        background-color: rgba(0, 0, 0, 0.658);
+        height: 880px;
+
+
+    }
+    h2 {
+        width: 96%;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        left: -15px;
+        font-size: 30px;
+    }
+    .text-block{
+        width: 95%;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    .wrapper {
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+p {
+    width: 96%;
+    font-size: 16px;
+}
+.container-img {
+    width: 220px;
+    height: 220px;
+    margin: 0px auto;
+    position: relative;
+    top: -60px;
+}
+.container-title {
+    margin-top: 420px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    font-size: 30px;
+    position: relative;
+    left: 1px;
+}
+.portfolio-img{
+    width: 90px;
+    height: 90px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -50px;
+}
+.container-img{
+    margin-top: 120px;
+}
+
+.img-1, .img-2, .img-3 {
+    width: 100%;
+}
+
+.project-image {
+    height: 465px;
+    width: 470px;
+}
+
+.icon1, .icon2, .icon3 {
+    margin: 15px auto;
+
+}
+.btn{
+    position: relative;
+    left: -20px;
+}
+.icon1, .icon2{
+    height: 40px;
+    width: 40px;
+}
+.icon3{
+    height: 45px;
+    width: 45px;
+}
+.linkedin-icon, .fb-icon, .github-icon {
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.github-icon{
+    position: relative;
+    left: 50px;
+}
+}
+
+/*Tablet Screens*/
+@media (min-width: 768px) and (max-width: 991px){
+    .container-fluid-content {
+        background-color: rgba(0, 0, 0, 0.658);
+        height: 420px;
+
+
+    }
+    .text-block{
+        width: 400px;
+        top: 7px;
+        position: relative;
+        left: 100px;
+    }
+.container-title{
+    margin-top: 140px;
+}
+.container-img {
+    width: 160px;
+    height: 160px;
+    margin-left: 5px;
+    position: relative;
+    top: -75px;
+}
+.portfolio-img{
+    width: 90px;
+    height: 90px;
+    margin-left: -40px;
+    position: relative;
+    left: 95px;
+    top: -75px;
+}
+.portfolio-img, .container-img{
+    margin-top: 150px;
+}
+
+.img-1, .img-2, .img-3 {
+    margin: 0 auto;
+    width: 33%;
+}
+
+.project-image {
+    margin-top: 40px;
+    height: 220px;
+    width: 210px;
+}
+.fb-icon, .github-icon, .linkedin-icon {
+    margin: 0px auto;
+}
+.icon1, .icon2, .icon3 {
+    margin: 15px auto;
+}
+.icon1, .icon2{
+    height: 40px;
+    width: 40px;
+}
+.icon3{
+    height: 50px;
+    width: 50px;
+}
+.linkedin-icon, .fb-icon, .github-icon {
+    width: 100px; 
+}
+.github-icon{
+    position: relative;
+    left: 90px;
+}
+.github-hover1, .github-hover2, .github-hover3 {
+    position: absolute;
+    top: 790px;
+    margin-left: -100px;
+    opacity: 0;
+}
+}
+/*Laptop Screens*/
+@media (min-width: 992px) and (max-width: 1900px){
+    .container-fluid-content {
+        background-color: rgba(0, 0, 0, 0.658);
+        height: 370px;
+
+    }
+    .text-block{
+        width: 56%;
+        top: 7px;
+        position: relative;
+        left: 100px;
+    }
+    .container-title {
+        margin-top: 170px;
+    }
+.container-img {
+    width: 170px;
+    height: 170px;
+    margin-left: 0px;
+    position: relative;
+    top: 0px;
+}
+.portfolio-img{
+    width: 120px;
+    height: 120px;
+    margin-left: -40px;
+    position: relative;
+    left: 95px;
+    top: 0px;
+}
+
+.img-1, .img-2, .img-3 {
+    width: 33%;
+    margin: 0 auto;
+}
+
+.project-image {
+    height: 300px;
+    width: 300px;
+    margin-top: 40px;
+}
+.fb-icon, .github-icon, .linkedin-icon {
+    margin: 0px auto;
+}
+.icon1, .icon2, .icon3 {
+    margin: 15px auto;
+}
+.icon1, .icon2{
+    height: 40px;
+    width: 40px;
+    background-color: #fff;
+    padding: 2px;
+}
+.icon3{
+    height: 50px;
+    width: 50px;
+    background-color: #fff;
+    padding: 1px;
+    border-radius: 30%;
+}
+.linkedin-icon, .fb-icon, .github-icon {
+    width: 200px;
+}
+.github-icon{
+    position: relative;
+    left: 150px;
+}
+.github-hover1, .github-hover2, .github-hover3 {
+    position: absolute;
+    top: 740px;
+    margin-left: -140px;
+    opacity: 0;
+}
+.footer {
+    margin-top: 200px;
+    height: 170px;
+}
+
+
+}
+@media (min-width: 1200px) and (max-width: 1870px){
+    .project-image{
+        width: 360px;
+        height: 370px;
+    }
+    .github-hover1, .github-hover2, .github-hover3 {
+        position: absolute !important;
+        top: 740px !important;
+        margin-left: -160px !important;
+        opacity: 0;
+    }
+}
+@media (min-width: 1901px) and (max-width: 5000px){
+    .container-fluid-content {
+        background-color: rgba(0, 0, 0, 0.527);
+        height: 320px;
+
+    }
+    .main {
+        width: 2100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .text-block{
+        width: 60%;
+        top: 2px;
+        position: relative;
+        left: 50px;
+    }
+    .container-title {
+        margin-top: 70px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+.container-img {
+    width: 220px;
+    height: 220px;
+    margin-left: -50px;
+    position: relative;
+    top: 0px;
+}
+.portfolio-img{
+    width: 120px;
+    height: 120px;
+    margin-left: -40px;
+    position: relative;
+    left: 95px;
+    top: 0px;
+}
+
+.img-1, .img-2, .img-3 {
+    width: 33%;
+    margin: 0 auto;
+}
+
+.project-image {
+    margin-top: 40px;
+    height: 420px;
+    width: 450px;
+}
+.fb-icon, .github-icon, .linkedin-icon {
+    margin: 0px auto;
+}
+.icon1, .icon2, .icon3 {
+    margin: 15px auto;
+}
+.icon1, .icon2{
+    height: 40px;
+    width: 40px;
+}
+.icon3{
+    height: 50px;
+    width: 50px;
+}
+.fb-icon {
+    width: 100px;
+}
+.icon1, .icon2{
+    border-radius: 5px 20px 5px;
+    height: 40px;
+    width: 40px;
+    margin-top: 20px;
+}
+.icon3{
+    margin-top: 15px;
+    height: 50px;
+    width: 50px;
+}
+.github-hover1, .github-hover2, .github-hover3 {
+    position: absolute;
+    top: 700px;
+    margin-left: -190px;
+    opacity: 0;
+}
+}
