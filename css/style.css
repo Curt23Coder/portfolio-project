@@ -324,6 +324,8 @@ overflow: hidden;
 }
 .icon1, .icon2, .icon3 {
     margin: 15px auto;
+    width: 35px;
+    height: 35px;
 }
 .container-img {
     width: 150px;
@@ -422,12 +424,12 @@ p {
     left: -20px;
 }
 .icon1, .icon2{
-    height: 40px;
-    width: 40px;
+    height: 35px;
+    width: 35px;
 }
 .icon3{
-    height: 45px;
-    width: 45px;
+    height: 35px;
+    width: 35px;
 }
 .linkedin-icon, .fb-icon, .github-icon {
     width: 100px;
@@ -493,12 +495,12 @@ p {
     margin: 15px auto;
 }
 .icon1, .icon2{
-    height: 40px;
-    width: 40px;
+    height: 35px;
+    width: 35px;
 }
 .icon3{
-    height: 50px;
-    width: 50px;
+    height: 35px;
+    width: 35px;
 }
 .linkedin-icon, .fb-icon, .github-icon {
     width: 100px; 
@@ -563,14 +565,14 @@ p {
     margin: 15px auto;
 }
 .icon1, .icon2{
-    height: 40px;
-    width: 40px;
+    height: 35px;
+    width: 35px;
     background-color: #fff;
     padding: 2px;
 }
 .icon3{
-    height: 50px;
-    width: 50px;
+    height: 35px;
+    width: 35px;
     background-color: #fff;
     padding: 1px;
     border-radius: 30%;
@@ -663,26 +665,26 @@ p {
     margin: 15px auto;
 }
 .icon1, .icon2{
-    height: 40px;
-    width: 40px;
+    height: 35px;
+    width: 35px;
 }
 .icon3{
-    height: 50px;
-    width: 50px;
+    height: 35px;
+    width: 35px;
 }
 .fb-icon {
     width: 100px;
 }
 .icon1, .icon2{
     border-radius: 5px 20px 5px;
-    height: 40px;
-    width: 40px;
+    height: 35px;
+    width: 35px;
     margin-top: 20px;
 }
 .icon3{
     margin-top: 15px;
-    height: 50px;
-    width: 50px;
+    height: 35px;
+    width: 35px;
 }
 .github-hover1, .github-hover2, .github-hover3 {
     position: absolute;
